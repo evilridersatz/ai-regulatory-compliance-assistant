@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What should happen when a transaction involves a high-risk jurisdiction?",
+    "ground_truth": "The transaction should receive enhanced review, and additional information or approval may be required before completion.",
+    "answer": "The regulatory evidence indicates that transactions involving customers, counterparties, or jurisdictions identified as high risk should receive enhanced review. Additional information and approval may be required before a transaction is completed.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 21,
+        "chunk": 38
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      }
+    ]
+  },
+  {
+    "question": "What should happen when customer KYC verification has not been completed?",
+    "ground_truth": "The transaction should be referred for compliance review and incomplete verification should not be treated as completed due diligence.",
+    "answer": "The regulatory evidence indicates that when customer KYC verification has not been completed, the transaction should be referred for compliance review. The institution should not treat missing verification as equivalent to completed due diligence.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 34,
+        "chunk": 62
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 30,
+        "chunk": 55
+      }
+    ]
+  },
+  {
+    "question": "What is required for customer due diligence?",
+    "ground_truth": "The institution should collect and verify appropriate customer and beneficial-owner information.",
+    "answer": "The regulatory evidence indicates that customer due diligence (CDD) requires financial institutions to perform CDD before establishing a relationship or processing transactions where identification and verification are required. The institution should collect and verify appropriate customer and beneficial-owner information and maintain records according to applicable retention requirements.",
+    "sources": [
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 23,
+        "chunk": 42
+      },
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 45,
+        "chunk": 86
+      }
+    ]
+  },
+  {
+    "question": "What should institutions do with unusual or potentially suspicious transactions?",
+    "ground_truth": "Institutions should maintain processes to identify unusual or potentially suspicious transaction activity.",
+    "answer": "Institutions should monitor transactions on an ongoing basis and identify unusual or potentially suspicious transactions. Such transactions should be reported to the appropriate authorities as required.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      },
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 77,
+        "chunk": 76
+      }
+    ]
+  },
+  {
+    "question": "What does enhanced due diligence apply to?",
+    "ground_truth": "Enhanced due diligence applies to high-risk accounts and certain high-risk relationships.",
+    "answer": "Enhanced due diligence (EDD) applies to non-face-to-face customer onboarding (other than customer onboarding in terms of paragraph 17) for registered entities (REs). It involves implementing specific measures to establish a relationship with a customer without meeting them physically or through V-CIP, and includes verifying the customer's identity, address, and other relevant information.",
+    "sources": [
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 56,
+        "chunk": 108
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 45,
+        "chunk": 86
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 23,
+        "chunk": 42
+      }
+    ]
+  },
+  {
+    "question": "What information should be maintained for compliance decisions?",
+    "ground_truth": "Records should contain sufficient information for an authorized reviewer to understand the decision, evidence considered, and applicable requirement.",
+    "answer": "The information that should be maintained for compliance decisions includes sufficient information to allow an authorized reviewer to understand the decision, the evidence considered, and the applicable policy or regulatory requirement. This is outlined in the \"Record Keeping\" section of the regulatory evidence.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 89,
+        "chunk": 88
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 21,
+        "chunk": 20
+      }
+    ]
+  },
+  {
+    "question": "What does Basel Principle 29 address?",
+    "ground_truth": "Basel Principle 29 addresses customer due diligence and preventing banks from being used for criminal activities.",
+    "answer": "Basel Principle 29 addresses prudential regulations and requirements for banks.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 29,
+        "chunk": 28
+      },
+      {
+        "source": "basel_risk_based_capital.pdf",
+        "page": 29,
+        "chunk": 28
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 39,
+        "chunk": 38
+      }
+    ]
+  },
+  {
+    "question": "What should banks do regarding customer identification and verification?",
+    "ground_truth": "Banks should maintain an ongoing customer identification, verification and due diligence programme.",
+    "answer": "The regulatory evidence indicates that banks should perform customer due diligence (CDD) before establishing a relationship or processing transactions where identification and verification are required. This includes collecting and verifying appropriate customer and beneficial-owner information. Additionally, banks should maintain records according to applicable retention requirements. For high-risk customers or jurisdictions, enhanced review and additional approval may be required. If customer or counterparty verification has not been completed, the transaction should be referred for compliance review, and the institution should not treat missing verification as equivalent to completed due diligence.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 13,
+        "chunk": 24
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      }
+    ]
+  },
+  {
+    "question": "What is required for high-risk accounts under Basel guidance?",
+    "ground_truth": "Enhanced due diligence should be applied to high-risk accounts and relevant relationship decisions should receive appropriate senior management attention.",
+    "answer": "Insufficient information in the regulatory knowledge base.",
+    "sources": [
+      {
+        "source": "basel_risk_based_capital.pdf",
+        "page": 31,
+        "chunk": 30
+      },
+      {
+        "source": "basel_risk_based_capital.pdf",
+        "page": 30,
+        "chunk": 29
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 59,
+        "chunk": 58
+      }
+    ]
+  },
+  {
+    "question": "How long should CDD records be retained according to the Basel Core Principles evidence?",
+    "ground_truth": "The evidence states that CDD and individual transaction records have at least a five-year retention period.",
+    "answer": "Insufficient information in the regulatory knowledge base.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 14,
+        "chunk": 13
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 81,
+        "chunk": 80
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 7,
+        "chunk": 6
+      }
+    ]
+  },
+  {
+    "question": "What is the purpose of customer due diligence?",
+    "ground_truth": "Customer due diligence helps institutions identify and verify customers and understand the nature of the customer relationship.",
+    "answer": "The purpose of customer due diligence (CDD) is to establish a reliable understanding of the customer's identity, assess the nature and extent of the customer's risk, and ensure that the bank complies with applicable laws and regulations. It involves verifying the customer's identity, assessing the risk associated with the relationship, and taking appropriate measures to prevent money laundering, terrorism financing, and other forms of financial crime.",
+    "sources": [
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 45,
+        "chunk": 86
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 46,
+        "chunk": 88
+      }
+    ]
+  },
+  {
+    "question": "What should an institution do when customer information is incomplete?",
+    "ground_truth": "The institution should obtain and verify the required information before treating the customer due diligence process as complete.",
+    "answer": "Insufficient information in the regulatory knowledge base.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 65,
+        "chunk": 129
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      }
+    ]
+  },
+  {
+    "question": "What controls are relevant for high-risk customers?",
+    "ground_truth": "High-risk customers should receive enhanced monitoring and additional due diligence measures.",
+    "answer": "The relevant controls for high-risk customers include:\n\n1. Enhanced due diligence on high-risk accounts, which involves escalation to the bank's senior management of decisions on entering into business relationships with these accounts or maintaining such relationships when an existing relationship becomes high-risk.\n2. Enhanced due diligence on politically exposed persons (including their family members and close associates), encompassing escalation to the bank's senior management of decisions on entering into business relationships with these persons.\n3. Policies and processes to monitor transactions on an ongoing basis and identify unusual or potentially suspicious transactions.\n4. Clear rules on what records must be kept on CDD and individual transactions and their retention period, with at least a five-year retention period.\n5. Internal audit and/or external expert evaluations of risk management policies, processes, and controls.\n6. Designation of a compliance officer at the bank's management level to manage the financial crimes compliance programme, and a dedicated officer to whom potential abuses of the bank's financial services (including suspicious transactions) are reported.\n7. Adequate powers for the supervisor to take action against a bank that does not comply with relevant laws and regulations regarding criminal activities.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 21,
+        "chunk": 38
+      },
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      }
+    ]
+  },
+  {
+    "question": "Why is transaction monitoring important?",
+    "ground_truth": "Transaction monitoring helps institutions identify unusual or potentially suspicious activity.",
+    "answer": "Transaction monitoring is important because it enables financial institutions to identify unusual or potentially suspicious transaction activity. This helps in detecting risks, ensuring compliance with regulatory requirements, and supporting investigations and audits. The regulatory evidence provided supports the importance of transaction monitoring in identifying suspicious activities and maintaining compliance.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 66,
+        "chunk": 130
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 57,
+        "chunk": 56
+      }
+    ]
+  },
+  {
+    "question": "What should compliance records allow an auditor to understand?",
+    "ground_truth": "Records should allow an authorized reviewer to understand the decision, evidence considered, and applicable requirement.",
+    "answer": "Compliance records should allow an authorized reviewer to understand the decision, the evidence considered, and the applicable policy or regulatory requirement.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 19,
+        "chunk": 18
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      }
+    ]
+  },
+  {
+    "question": "What is the role of a compliance function in a bank?",
+    "ground_truth": "The compliance function supports adherence to applicable laws, regulations and supervisory requirements.",
+    "answer": "The role of a compliance function in a bank is to assist senior management in managing compliance risks. The supervisor determines that the compliance function is independent, permanent, and effective, and that staff within the compliance function are suitably trained, have relevant experience, and have sufficient authority within the bank to perform their role effectively. The supervisor also ensures that the bank's board exercises oversight of the management of the compliance function.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 73,
+        "chunk": 72
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 67,
+        "chunk": 66
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 14,
+        "chunk": 13
+      }
+    ]
+  },
+  {
+    "question": "What should banks consider when establishing customer relationships?",
+    "ground_truth": "Banks should perform appropriate customer identification and due diligence before establishing relationships where required.",
+    "answer": "When establishing customer relationships, banks should consider the following:\n\n1. **Customer Acceptance Policy**: Banks must have a customer acceptance policy that identifies business relationships they will not accept based on identified risks.\n\n2. **Customer Identification and Due Diligence (CDD)**: Banks should implement an ongoing customer identification, verification, and due diligence programme. This includes verifying beneficial ownership, understanding the purpose and nature of the business relationship, and conducting risk-based reviews to ensure CDD information is updated and relevant.\n\n3. **Transaction Monitoring**: Banks should monitor transactions on an ongoing basis to identify unusual or potentially suspicious transactions, as well as those individuals or entities subject to United Nations sanctions related to terrorism and proliferation financing.\n\n4. **Enhanced Due Diligence on High-Risk Accounts**: Banks should perform enhanced due diligence on high-risk accounts, including escalation to senior management of decisions on entering into business relationships with these accounts or maintaining such relationships when an existing relationship becomes high-risk.\n\n5. **Enhanced Due Diligence on Politically Exposed Persons (PEPs)**: Banks should perform enhanced due diligence on politically exposed persons (PEPs), including their family members and close associates, and escalate decisions on entering into business relationships with these persons to senior management.\n\n6. **Record Keeping**: Banks must keep records of CDD and individual transactions, with at least a five-year retention period. These records should include sufficient information to allow an authorized reviewer to understand the decision, the evidence",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      },
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "rbi_kyc_2025.pdf",
+        "page": 46,
+        "chunk": 88
+      }
+    ]
+  },
+  {
+    "question": "What additional controls may apply to high-risk relationships?",
+    "ground_truth": "High-risk relationships may require enhanced due diligence, monitoring, escalation and additional approval.",
+    "answer": "The regulatory evidence indicates that high-risk relationships may require enhanced due diligence, including escalation to senior management of decisions on entering into business relationships with these accounts or maintaining such relationships when an existing relationship becomes high-risk. Additionally, the supervisor may require specific policies and processes to manage such relationships, including the use of external experts or the designation of a compliance officer.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 78,
+        "chunk": 77
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 15,
+        "chunk": 14
+      },
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      }
+    ]
+  },
+  {
+    "question": "Why should regulatory evidence be retained?",
+    "ground_truth": "Regulatory evidence and records support review, compliance decisions and auditability.",
+    "answer": "Insufficient information in the regulatory knowledge base.",
+    "sources": [
+      {
+        "source": "rbi_kyc.pdf",
+        "page": 1,
+        "chunk": 0
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 88,
+        "chunk": 87
+      },
+      {
+        "source": "basel_risk_based_capital.pdf",
+        "page": 35,
+        "chunk": 42
+      }
+    ]
+  },
+  {
+    "question": "What is important when assessing a regulatory compliance decision?",
+    "ground_truth": "The decision should be supported by relevant regulatory evidence and sufficient records for later review.",
+    "answer": "When assessing a regulatory compliance decision, it is important to consider several factors, including the context of the assessment, the quality of the regulatory framework and supervisory practices, the implementation of laws and regulations, the availability of supervisory tools and instruments, the institutional capacity of the supervisory authority, and the enforcement practices. Additionally, the assessment should be conducted by appropriately qualified external individuals to ensure objectivity, and the evaluation should be comprehensive and in sufficient depth to determine whether criteria are fulfilled in practice, not just in theory. The assessment should also account for the specific context of the jurisdiction and the need for any improvements, while considering the proportionality and the systemically important nature of banks. The comments section should be used to explain the grading and highlight the materiality of any shortcomings, as well as the measures needed to achieve full compliance.",
+    "sources": [
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 18,
+        "chunk": 17
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 89,
+        "chunk": 88
+      },
+      {
+        "source": "basel_core_principles.pdf",
+        "page": 19,
+        "chunk": 18
+      }
+    ]
+  }
+]

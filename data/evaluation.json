@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What should happen when a transaction involves a high-risk jurisdiction?",
+    "ground_truth": "The transaction should receive enhanced review, and additional information or approval may be required before completion."
+  },
+  {
+    "question": "What should happen when customer KYC verification has not been completed?",
+    "ground_truth": "The transaction should be referred for compliance review and incomplete verification should not be treated as completed due diligence."
+  },
+  {
+    "question": "What is required for customer due diligence?",
+    "ground_truth": "The institution should collect and verify appropriate customer and beneficial-owner information."
+  },
+  {
+    "question": "What should institutions do with unusual or potentially suspicious transactions?",
+    "ground_truth": "Institutions should maintain processes to identify unusual or potentially suspicious transaction activity."
+  },
+  {
+    "question": "What does enhanced due diligence apply to?",
+    "ground_truth": "Enhanced due diligence applies to high-risk accounts and certain high-risk relationships."
+  },
+  {
+    "question": "What information should be maintained for compliance decisions?",
+    "ground_truth": "Records should contain sufficient information for an authorized reviewer to understand the decision, evidence considered, and applicable requirement."
+  },
+  {
+    "question": "What does Basel Principle 29 address?",
+    "ground_truth": "Basel Principle 29 addresses customer due diligence and preventing banks from being used for criminal activities."
+  },
+  {
+    "question": "What should banks do regarding customer identification and verification?",
+    "ground_truth": "Banks should maintain an ongoing customer identification, verification and due diligence programme."
+  },
+  {
+    "question": "What is required for high-risk accounts under Basel guidance?",
+    "ground_truth": "Enhanced due diligence should be applied to high-risk accounts and relevant relationship decisions should receive appropriate senior management attention."
+  },
+  {
+    "question": "How long should CDD records be retained according to the Basel Core Principles evidence?",
+    "ground_truth": "The evidence states that CDD and individual transaction records have at least a five-year retention period."
+  },
+  {
+    "question": "What is the purpose of customer due diligence?",
+    "ground_truth": "Customer due diligence helps institutions identify and verify customers and understand the nature of the customer relationship."
+  },
+  {
+    "question": "What should an institution do when customer information is incomplete?",
+    "ground_truth": "The institution should obtain and verify the required information before treating the customer due diligence process as complete."
+  },
+  {
+    "question": "What controls are relevant for high-risk customers?",
+    "ground_truth": "High-risk customers should receive enhanced monitoring and additional due diligence measures."
+  },
+  {
+    "question": "Why is transaction monitoring important?",
+    "ground_truth": "Transaction monitoring helps institutions identify unusual or potentially suspicious activity."
+  },
+  {
+    "question": "What should compliance records allow an auditor to understand?",
+    "ground_truth": "Records should allow an authorized reviewer to understand the decision, evidence considered, and applicable requirement."
+  },
+  {
+    "question": "What is the role of a compliance function in a bank?",
+    "ground_truth": "The compliance function supports adherence to applicable laws, regulations and supervisory requirements."
+  },
+  {
+    "question": "What should banks consider when establishing customer relationships?",
+    "ground_truth": "Banks should perform appropriate customer identification and due diligence before establishing relationships where required."
+  },
+  {
+    "question": "What additional controls may apply to high-risk relationships?",
+    "ground_truth": "High-risk relationships may require enhanced due diligence, monitoring, escalation and additional approval."
+  },
+  {
+    "question": "Why should regulatory evidence be retained?",
+    "ground_truth": "Regulatory evidence and records support review, compliance decisions and auditability."
+  },
+  {
+    "question": "What is important when assessing a regulatory compliance decision?",
+    "ground_truth": "The decision should be supported by relevant regulatory evidence and sufficient records for later review."
+  }
+]
